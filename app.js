@@ -78,7 +78,7 @@ if (num === 3 || num === 2) {
 }
 
 //!(NOT)
-const username = prompt("ユーザ名を入力して下さい");
+let username = prompt("ユーザ名を入力して下さい");
 
 if (!username) {
   username = prompt("空文字はダメですよ");
